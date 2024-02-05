@@ -1,0 +1,44 @@
+.about-grid{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+}
+
+.skill-item{
+    padding: 5px;
+    border-radius: 15px;
+    background-color: white;
+    border: 1px solid var(--primary-blue);
+}
+
+.active-tab_content{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px 0;
+    gap: .5rem;
+}
+.prof-skill_buttons{
+    display:  flex;
+    gap: 1rem;
+}
+
+.prof-skill_buttons button{
+    background-color: var(--primary-blue);
+    color: white;
+    border: none;
+}
+
+.prof-skill_buttons button:hover{
+    background-color: var(--deep-blue);
+}
+
+.prof-skill_buttons button.active{
+    background-color: var(--deep-blue);
+    outline: 1px solid white;
+}
+
+@media screen and (max-width: 650px) {
+    .about-grid {
+        grid-template-columns: 1fr;
+    }
+}
