@@ -1,0 +1,59 @@
+.experience-grid{
+    display: grid;
+    gap: 1rem;
+}
+
+.dashed-border{
+    position: relative;
+    border-left: 1px dashed black;
+    padding-left: 15px;
+}
+
+.dashed-circle{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    outline-offset: 6px;
+    outline: 1px dashed ;
+    position: absolute;
+    left: -6px;
+    top: -10px;
+}
+
+.ex-box:nth-child(1) .dashed-circle{
+    background-color: green;
+    outline-color: green;
+}
+.ex-box:nth-child(2) .dashed-circle{
+    background-color: orange;
+    outline-color: orange;
+}
+.ex-box:nth-child(3) .dashed-circle{
+    background-color: yellow;
+    outline-color: yellow;
+}
+
+@media screen and (max-width:700px) {
+    .dashed-circle-mobile{
+        display: none;
+    }
+    
+    .dashed-border-mobile{
+        border-left: none;
+    }
+}
+
+
+
+@media screen and (min-width: 700px) {
+    .experience-grid{
+        grid-template-columns: 1fr 1fr;
+    }
+    .ex-box.dashed-border{
+        border-left: none;
+    }
+    .dashed-desktop.dashed-circle{
+        display: none;
+    }
+
+}
