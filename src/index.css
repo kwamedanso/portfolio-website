@@ -12,10 +12,13 @@ img{
   display: block;
 }
 
+html{
+  scroll-behavior: smooth;
+}
+
 body{
   font-family: 'Montserrat', sans-serif;
   /* font-family: 'Source Code Pro', monospace; */
-  scroll-behavior: smooth;
 }
 
 ul{
