@@ -4,8 +4,8 @@ import { PiStarFourFill } from "react-icons/pi";
 
 export default function Marquee() {
     return (
-        <div class="marquee">
-            <ul class="marquee__content">
+        <div className="marquee">
+            <ul className="marquee__content">
                 <PiStarFourFill />
                 <li>Discover</li>
                 <PiStarFourFill />
@@ -15,7 +15,7 @@ export default function Marquee() {
                 <PiStarFourFill />
             </ul>
             {/* <!-- Mirrors the content above --> */}
-            <ul class="marquee__content" aria-hidden="true">
+            <ul className="marquee__content" aria-hidden="true">
                 <li>Discover</li>
                 <PiStarFourFill />
                 <li>Design</li>
