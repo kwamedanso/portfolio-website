@@ -6,7 +6,7 @@ import "components/styles/contact.css"
 
 export default function Contact() {
     return (
-        <div className='contact margin-block-700 section-margin'>
+        <div id='Contact' className='contact margin-block-700 section-margin'>
             <h3 className=''>CONTACT</h3>
             <p>Don't be shy! Hit me up!👇</p>
 
