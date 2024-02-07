@@ -20,21 +20,27 @@
 .prof-skill_buttons{
     display:  flex;
     gap: 1rem;
+    width: max-content;
+    padding: 2px;
+    border-radius: 12px;
 }
 
 .prof-skill_buttons button{
-    background-color: var(--primary-blue);
-    color: white;
-    border: none;
+    background-color: white;
+    border: 1px solid var(--deep-blue);
+    color: var(--deep-blue);
 }
 
 .prof-skill_buttons button:hover{
     background-color: var(--deep-blue);
+    color: white;
 }
 
 .prof-skill_buttons button.active{
     background-color: var(--deep-blue);
-    outline: 1px solid white;
+    color: white;
+    outline: 1px solid var(--deep-blue);
+    outline-offset: 2px;
 }
 
 @media screen and (max-width: 650px) {

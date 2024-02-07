@@ -11,10 +11,13 @@ export default function About() {
 
     return (
         <div id='About' className='section-margin margin-block-700'>
+            <div className='section-title margin-block-700'>
+                <h2 className='fs-600'>About</h2>
+            </div>
             <div className="about-grid">
                 <div className="about-desc">
                     <h3 className='' data-type='clr-blue'>ABOUT ME</h3>
-                    <p className='fs-300 fw-semi-bold margin-block-100'>A dedicated Front-end Developmer based in Accra, Ghana</p>
+                    <p className='fs-300 fw-semi-bold margin-block-100'>A dedicated Front-end Developmer</p>
                     <p className='margin-block-200'>Passionate web developer with 3+ years of experience in HTML, CSS, JavaScript, React.js, Version Control with Git, and API integration. Skilled in creating user-friendly websites that prioritize functionality and aesthetics. Committed to continuous learning and adapting to the latest front-end technologies.</p>
                 </div>
                 <div className="about-prof_skills">
