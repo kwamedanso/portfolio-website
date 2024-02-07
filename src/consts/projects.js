@@ -1,5 +1,6 @@
 import techee from "assets/techee.jpeg"
 import travistTravel from "assets/travist-travel.png"
+import carru from "assets/carru.png"
 
 const projects = [
     {
@@ -19,7 +20,7 @@ const projects = [
         madeWith: ["React.js", "CSS"],
         repo: "https://www.google.com",
         liveDemo: "https://techee.netlify.app",
-        imageUrl: travistTravel,
+        imageUrl: carru,
         position: "right"
     },
     {
