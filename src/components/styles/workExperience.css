@@ -55,5 +55,8 @@
     .dashed-desktop.dashed-circle{
         display: none;
     }
-
+    
+}
+.work-experience-list{
+    margin-left: 20px;
 }

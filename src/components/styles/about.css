@@ -19,9 +19,8 @@
 }
 .prof-skill_buttons{
     display:  flex;
-    gap: 1rem;
-    width: max-content;
-    padding: 2px;
+    flex-wrap: wrap;
+    gap: .4rem;
     border-radius: 12px;
 }
 
@@ -29,6 +28,9 @@
     background-color: white;
     border: 1px solid var(--deep-blue);
     color: var(--deep-blue);
+    scroll-snap-align: start;
+    max-width: max-content;
+    padding: 10px 5px;
 }
 
 .prof-skill_buttons button:hover{
