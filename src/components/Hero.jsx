@@ -1,21 +1,13 @@
-import React, { useState } from 'react'
+import React from 'react'
 import "components/styles/hero.css"
 import { FaGithub, FaLinkedin } from "react-icons/fa";
-import { PiScrollLight } from "react-icons/pi";
 import { Link } from 'react-router-dom';
 import { MdOutlineFileDownload, MdOutlineArrowOutward } from "react-icons/md";
-import { BsEye } from "react-icons/bs";
 import resumeFile from "assets/Kwame-Danso-resume.pdf";
 
 
 
 export default function Hero() {
-    const [resumeLinks, setResumeLinks] = useState(false)
-
-    function handleResumeLinks() {
-        setResumeLinks(!resumeLinks)
-    }
-
     return (
         <div id='Home'>
             <div className='section-margin'>
@@ -36,18 +28,12 @@ export default function Hero() {
                             </div>
                         </div>
 
-                        <div className={`resume-links ${resumeLinks ? "active" : ""}`}>
-                            <Link to={"/resume"} className='button resume-link' data-type='white'>View <BsEye /></Link>
-                            <a href={resumeFile} target='_blank' rel='noreferrer' className='button resume-link' data-type='white' download={"KwameDanso-resume.pdf"}>Download <MdOutlineFileDownload /></a>
-                        </div>
+
                         <div className="hero-buttons">
-                            <button className='button' data-type='white' onClick={handleResumeLinks}>Resume <PiScrollLight /></button>
+                            <a href={resumeFile} target='_blank' rel='noreferrer' className='button' data-type="white" download={"KwameDanso-resume.pdf"}>Resume <MdOutlineFileDownload /></a>
                             <a href='#Contact' className='button' data-type='blue'>Contact me <MdOutlineArrowOutward /></a>
                         </div>
                     </div>
-
-                    <div className={`overlay ${resumeLinks ? "active" : ""}`} onClick={handleResumeLinks}></div>
-
                 </div>
             </div>
         </div>
