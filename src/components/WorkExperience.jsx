@@ -1,6 +1,7 @@
 import React from 'react'
 import { organization } from 'consts/workExperience';
 import "components/styles/workExperience.css"
+import WorkExperienceList from './WorkExperienceList';
 
 export default function WorkExperience() {
     return (
@@ -20,7 +21,8 @@ export default function WorkExperience() {
                             <div className='dashed-border dashed-border-mobile'>
                                 <div className='dashed-circle dashed-circle-mobile'></div>
                                 <p className='fs-300 fw-semi-bold'>{item.jtitle}</p>
-                                <p className='padding-block-50'>{item.description}</p>
+                                <p className='padding-block-100 fw-semi-bold fs-200'>Responsibilities / Tasks</p>
+                                <WorkExperienceList experience={item.experience} />
                             </div>
                         </div>
                     ))}
