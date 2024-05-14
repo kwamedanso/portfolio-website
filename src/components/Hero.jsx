@@ -27,7 +27,7 @@ export default function Hero() {
                                 <p className='fs-800 fw-bold'>My name is <span className='content-name'>Kwame</span></p>
                                 <p className='fs-800 fw-bold'>I'm a <span className='content-underline'>Front End  Developer</span></p>
                             </div>
-                            <p className='fs-250 op-200 margin-block-300 fw-semi-bold'>With 3+ years of experience in web design and development, my true skill development began during my intership at Ant Cyber Engineering. This experience has porpelled my ongoing journey of learbing and constant improvement.
+                            <p className='fs-250 op-200 margin-block-300 fw-semi-bold'>With over 4 years of experience in web design and development, my true skill development began during my intership at Ant Cyber Engineering Limited. This experience has porpelled my ongoing journey of learbing and constant improvement.
                             </p>
                             <div className="hero-links">
                                 <Link target='_blank' to={"https://github.com/kwamedanso"}><FaGithub /></Link>
