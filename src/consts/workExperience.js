@@ -28,7 +28,7 @@ const organization = [
         id: 3,
         org: "Ernest Chemists Limited",
         date: "September 2019 - December 2020",
-        jtitle: "Visual Designer",
+        jtitle: "IT Technician",
         experience: [
             "Provide first-line support to internal users, resolving issues related to software, hardware, and network systems.",
             "Diagnose and troubleshoot technical issues, including errors, network configurations, and hardware malfunctions.",
