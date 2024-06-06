@@ -10,7 +10,8 @@ export default function Projects() {
         <div id='Projects' >
             <div className='section-margin projects'>
                 <div className='section-title margin-block-700'>
-                    <h2 className='fs-600'>Projects</h2>
+                    <h2 className='fs-600'>My <span className='less-than'>{"{"}</span>dev<span className='greater-than'>{"}"}</span> projects</h2>
+                    <p className='padding-block-200 op-200'>Web Apps & Websites</p>
                 </div>
                 {projects.map(item => (
                     <div key={item.id} className={`projects-grid ${item.position}`}>

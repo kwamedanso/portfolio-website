@@ -6,7 +6,7 @@ import WorkExperienceList from './WorkExperienceList';
 export default function WorkExperience() {
     return (
         <div className='section-margin'>
-            <h2 className='fs-600 section-title margin-block-700'>My Work Experience</h2>
+            <h2 className='fs-600 section-title margin-block-700'>My <span className='less-than'>{"["}</span>work<span className='greater-than'>{"]"}</span> Experience</h2>
 
             <div className="">
                 <div className="experience-organization">
