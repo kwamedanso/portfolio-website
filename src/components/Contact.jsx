@@ -1,5 +1,4 @@
 import React from 'react'
-// import { FaPhoneAlt } from "react-icons/fa";
 import { CiMail, CiPhone } from "react-icons/ci";
 import "components/styles/contact.css"
 
@@ -14,7 +13,7 @@ export default function Contact() {
                 <div className='contact-grid'>
                     <div className='flex ai-center'>
                         <div className="icon"><CiPhone /></div>
-                        <a href="tel:+233208001245">
+                        <a href="tel:+233208001363">
                             <span className='fw-semi-bold'>Phone</span>
                             <span className='op-200 fs-150'>020 800 1363</span>
                         </a>
