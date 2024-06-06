@@ -32,6 +32,10 @@ header{
     text-decoration: none;
 }
 
+.nav-links ul li a:hover{
+    color: var(--primary-blue);
+}
+
 .nav-link{
     padding: 10px;
     border-radius: 10px;
