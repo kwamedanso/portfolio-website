@@ -1,8 +1,9 @@
 import React from 'react'
 import projects from 'consts/projects'
 import { Link } from 'react-router-dom'
-import { CiLink } from "react-icons/ci";
+import { CiLink, CiGlobe } from "react-icons/ci";
 import { FaGithub } from "react-icons/fa";
+
 import "components/styles/projects.css"
 
 export default function Projects() {
@@ -11,7 +12,8 @@ export default function Projects() {
             <div className='section-margin projects'>
                 <div className='section-title margin-block-700'>
                     <h2 className='fs-600'>My <span className='less-than'>{"{"}</span>dev<span className='greater-than'>{"}"}</span> projects</h2>
-                    <p className='padding-block-200 op-200'>Web Apps & Websites</p>
+                    {/* <p className='padding-block-200 op-200'>Web Apps & Websites</p> */}
+                    <p className='padding-block-200 op-200'><span style={{ color: "#EE9D9D", fontWeight: "bold" }}>/</span><span style={{ color: "#39DC15", fontWeight: "bold" }}>/</span>Exploring solutions through hands-on development</p>
                 </div>
                 {projects.map(item => (
                     <div key={item.id} className={`projects-grid ${item.position}`}>
@@ -28,8 +30,8 @@ export default function Projects() {
                                     ))}
                                 </div>
                                 <div className="pr-links pr-made_with">
-                                    <Link to={item.repo} target='_blank' className='mw-item'>Code <FaGithub /></Link>
-                                    <Link to={item.liveDemo} target='_blank' className='mw-item'>live Demo <CiLink /></Link>
+                                    <Link to={item.repo} target='_blank' className='mw-item'>GitHub Repo <FaGithub /></Link>
+                                    <Link to={item.liveDemo} target='_blank' className='mw-item'>Live Demo <CiGlobe /></Link>
                                 </div>
                             </>
                         </div>
