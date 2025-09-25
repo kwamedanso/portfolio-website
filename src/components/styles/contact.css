@@ -1,10 +1,19 @@
+#Contact{
+    border-top: 1px solid gainsboro;
+    background-color: #0E172D;
+    color: white;
+}
+
+.contact{
+    padding-block: 7rem;
+}
 .contact .icon svg{
     padding: 3px;
     font-size: 2rem;
 }
 
 .contact a span{
-    color: black;
+    color: white;
     display: block;
 }
 
@@ -21,4 +30,8 @@
         flex-direction: column;
         gap: 1.5rem;
     }
+
+    .contact{
+    padding-block: 4rem;
+}
 }
