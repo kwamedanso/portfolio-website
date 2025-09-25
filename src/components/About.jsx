@@ -3,8 +3,9 @@ import { prof_skills, tech_skills, education } from 'consts/about'
 import { motion } from "framer-motion"
 import "components/styles/about.css"
 
+
 export default function About() {
-    const [activeTab, setActiveTab] = useState("prof_skills")
+    const [activeTab, setActiveTab] = useState("tech_skills")
 
     function handleActiveTab(skill) {
         setActiveTab(skill)
@@ -13,7 +14,7 @@ export default function About() {
     return (
         <div id='About' className='section-margin'>
             <div className='section-title margin-block-700'>
-                <h2 className='fs-600'>Problem solver <span className='less-than'>{"<"}</span>coder<span className='greater-than'>{">"}</span></h2>
+                <h2 className='fs-600'>Problem solving <span className='less-than'>{"<"}</span>developer<span className='greater-than'>{"/>"}</span></h2>
             </div>
             <div className="about-grid">
                 <div className="about-desc">
@@ -31,9 +32,9 @@ export default function About() {
 
                     <div className='active-tab_content'>
                         {activeTab === "prof_skills" ? <>
-                            {prof_skills.map(item => <motion.div animate={{ y: 0 }} initial={{ y: "10px" }} key={item} className='skill-item fs-150'>{item}</motion.div>)}
+                            {prof_skills.map(item => <motion.div animate={{ y: 0 }} initial={{ y: "10px" }} key={item.id} className='skill-item fs-150'>{item.icon} {item.title}</motion.div>)}
                         </> : activeTab === "tech_skills" ? <>
-                            {tech_skills.map(item => <motion.div animate={{ y: 0 }} initial={{ y: "10px" }} key={item} className='skill-item fs-150'>{item}</motion.div>)}
+                            {tech_skills.map(item => <motion.div animate={{ y: 0 }} initial={{ y: "10px" }} key={item.id} className='skill-item fs-150'>{item.icon} {item.title}</motion.div>)}
                         </> : <>
                             {education.map(item => <motion.div animate={{ y: 0 }} initial={{ y: "10px" }} key={item.cert}>
                                 <p className='fw-bold'>{item.cert}</p>
