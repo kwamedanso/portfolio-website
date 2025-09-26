@@ -1,5 +1,5 @@
 import React from 'react'
-import { CiMail, CiPhone } from "react-icons/ci";
+import { CiMail, CiPhone, CiLinkedin } from "react-icons/ci";
 import "components/styles/contact.css"
 
 
@@ -27,6 +27,14 @@ export default function Contact() {
                                 <span className='op-200 fs-150'>dansokwameamoafo@gmail.com</span>
                             </a>
                         </div>
+                        <div className='flex ai-center'>
+                            <div className="icon"><CiLinkedin /></div>
+                            <a href="https://www.linkedin.com/in/kwame-danso/" target='_blank'>
+                                <span className='fw-semi-bold'>LinkedIn</span>
+                                <span className='op-200 fs-150'>kwame-danso</span>
+                            </a>
+                        </div>
+
                     </div>
 
                 </div>
