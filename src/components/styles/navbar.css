@@ -1,10 +1,22 @@
+.navbar-container {
+    position: fixed;
+    top: 15px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: calc(100% - 40px);
+    max-width: 1000px;
+    z-index: 1000;
+    }
+
 header{
-    backdrop-filter: blur(5px);
-    background: hsla(0, 0%, 100%, .5);
+    border-radius: 35px;
+    padding: 0 12px;
     height: 70px;
-    position: sticky;
-    top: 0;
-    z-index: 10;
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 /* .header-logo a{
@@ -68,6 +80,10 @@ header{
 }
 
 @media screen and (max-width: 650px) {
+    .navbar-container{
+    width: calc(100% - 0px);
+    top: 5px;
+    }
     header{
         background-color: white;
         height: 60px;
@@ -79,6 +95,8 @@ header{
     nav{
         display: none;
         animation: slide 400ms linear  1 alternate;  
+        border-radius: 25px;
+        margin-top: 3px;
     }
 
     nav.active{

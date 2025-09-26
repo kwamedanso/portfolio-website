@@ -7,7 +7,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    height: calc(100dvh - 70px);
+    height: calc(100dvh + 100px);
     color: #343434;
     position: relative;
 }
@@ -157,10 +157,11 @@
   }
 
 
-@media screen and (max-width: 650px) {
-    /* .hero{
-        height: calc(50dvh - 70px);
-    } */
+@media screen and (max-width: 768px) {
+    .hero{
+        height: calc(100dvh + 100px);
+    }
+    
     .primary-heading{
         font-size: var(--size-800);
     }
