@@ -2,27 +2,35 @@ const organization = [
     {
         id: 1,
         org: "Ant Cyber Engineering Limited",
-        date: "January 2022 - Present",
+        date: "January 2022 - June 2024",
         jtitle: "Frontend Web Developer",
         experience: [
-            "Develop responsible web pages and interfaces using HTML5, CSS3, JavaScript, and React.js",
-            "Improved website accessibility by implementing responsive design, resulting in a 15% increase in mobile traffic.",
-            "Implement state management tools e.g. Redux to manage the application state data effectively.",
-            "Work closely with backend developers to understand and integrate APIs and data interchange.",
-            "Optimized website performance using asynchronous loading, and image optimization, resulting in a 20% decrease in page load time.",
-            "Use image compression tools to reduce file sizes without compromising quality.",
-            "Minify CSS, JavaScript, and HTML. Remove unnecessary characters from code to reduce file sizes, using tools like UglifyJS and CSSNano.",
-            "Enable browser cashing, allowing browsers to store copies of files so they don‚Äôt need to be downloaded again on subsequent visits.",
-            "Use browser development tools for debugging and optimization (Chrome Dev Tools, React Dev Tools).",
-            "Use version control systems, like Git, for source code management."
+            "Built and maintained responsive web pages and interfaces using HTML5, CSS3, JavaScript, and React.js, ensuring cross-browser compatibility and smooth user experiences.",
+            "Enhanced website accessibility and responsiveness, leading to a 15% increase in mobile traffic and a better experience for users on all devices.",
+            "Implemented state management solutions such as Redux to handle complex data flows, making applications more scalable and easier to maintain.",
+            "Collaborated closely with backend developers to integrate REST APIs, ensuring seamless data exchange and reliable functionality across different features.",
+            "Optimized website performance through asynchronous loading and image optimization, achieving a 20% reduction in page load times and improving overall site speed.",
+            "Utilized image compression tools to reduce file sizes while maintaining quality, resulting in faster loading visuals and improved user satisfaction.",
+            "Applied best practices like minifying CSS, JavaScript, and HTML with tools such as UglifyJS and CSSNano to significantly reduce file sizes and boost performance.",
+            "Configured browser caching strategies, allowing repeat visitors to load sites faster by avoiding redundant downloads of static resources.",
+            "Leveraged browser developer tools (Chrome DevTools, React DevTools) to debug, test, and fine-tune performance issues, ensuring a smooth deployment process.",
+            "Used Git for version control to manage source code efficiently, track changes, and collaborate effectively with team members on shared projects."
         ]
+
     },
     {
         id: 2,
         org: "Ant Cyber Engineering Limited",
         date: "June 2021 - December 2021",
         jtitle: "Frontend Web Developer (Intern)",
-        experience: ["Develop responsible web pages and interfaces using HTML5, CSS3, JavaScript.", "Use browser development tools for debugging and optimization.", "Refractor and optimize the codebase for maintainability and scalability.", "Assisted in the integration of third-party APIs, enhancing the functionality and interactivity of the company's web applications", "Modified the code to make websites more responsive on mobile devices and compatible with more browsers.", "25% more user engagement was achieved by adding interactive capabilities to the company's web apps using JavaScript, HTML, and CSS.", "Use version control systems, like Git, for source code management."]
+        experience: [
+            "Developed responsive and user-friendly web pages using HTML5, CSS3, and JavaScript, ensuring a seamless experience across devices.",
+            "Utilized browser developer tools to debug, analyze, and optimize site performance, improving load times and reliability.",
+            "Refactored and optimized the codebase to enhance maintainability and scalability, making future updates faster and less error-prone.",
+            "Collaborated with the team to integrate third-party APIs, expanding functionality and adding new features that enriched user experience.",
+            "Improved mobile responsiveness and cross-browser compatibility, ensuring consistent functionality across diverse platforms.",
+            "Applied version control practices with Git to manage source code effectively, track progress, and streamline collaboration with team members."
+        ]
     },
     {
         id: 3,
