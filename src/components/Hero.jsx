@@ -32,7 +32,7 @@ export default function Hero() {
                                         </p>
                                     </div>
                                     <div>
-                                        <p className='padding-block-100'>{'{'}React, JavaScript, HTML/CSS, Git, RestAPI{'...}'}</p>
+                                        <p className='padding-block-100'>{'['}React, JavaScript, HTML/CSS, Git, RestAPI{'...]'}</p>
                                         <p className='padding-block-200'>Specializing in React & JavaScript, I leverage cutting edge technologies to bring web projects to life.</p>
                                     </div>
                                 </div>
