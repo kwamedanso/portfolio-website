@@ -25,7 +25,7 @@ export default function Hero() {
                                             <span className='content-name'> Kwame</span>
                                         </p>
                                         <p className='fw-bold'>
-                                            Front-End
+                                            Frontend
                                             <span className='less-than'> {'<'}</span>
                                             <span className='developer'>Developer</span>
                                             <span className='greater-than'>{'>'}</span>
