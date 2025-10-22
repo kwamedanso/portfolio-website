@@ -1,8 +1,7 @@
 import techee from "assets/techee.jpeg"
 import travistTravel from "assets/travist-travel.png"
 import carru from "assets/carru.png"
-import membershipUpdate from "assets/membership-update.jpeg"
-import membershipLogin from "assets/login.jpeg"
+import membershipUpdate from "assets/membership_update.png"
 
 const projects = [
     {
