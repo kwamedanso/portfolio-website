@@ -2,7 +2,7 @@ const organization = [
     {
         id: 1,
         org: "Freelance & Personal Projects",
-        date: "January 2022 - Present",
+        date: "January 2023 - Present",
         jtitle: "Frontend Web Developer",
         experience: [
             "Built responsive, interactive web interfaces using HTML5, CSS3, JavaScript, and React.js.",
@@ -36,12 +36,12 @@ const organization = [
         date: "June 2021 - December 2021",
         jtitle: "Frontend Web Developer (Intern)",
         experience: [
-            "Developed responsive and user-friendly web pages using HTML5, CSS3, and JavaScript, ensuring a seamless experience across devices.",
-            "Utilized browser developer tools to debug, analyze, and optimize site performance, improving load times and reliability.",
-            "Refactored and optimized the codebase to enhance maintainability and scalability, making future updates faster and less error-prone.",
-            "Collaborated with the team to integrate third-party APIs, expanding functionality and adding new features that enriched user experience.",
-            "Improved mobile responsiveness and cross-browser compatibility, ensuring consistent functionality across diverse platforms.",
-            "Applied version control practices with Git to manage source code effectively, track progress, and streamline collaboration with team members.",
+            "Gained hands-on experience developing responsive and user-friendly web pages using HTML5, CSS3, and JavaScript, translating design concepts into fully functional interfaces.",
+            "Learned to use browser developer tools effectively for debugging, performance analysis, and optimization helping to improve site load times and overall reliability.",
+            "Worked on refactoring and optimizing codebases, which deepened my understanding of clean code practices, scalability, and maintainable project structures.",
+            "Collaborated closely with senior developers to integrate third-party APIs, gaining practical insight into how front-end components connect with back-end systems.",
+            "Strengthened my knowledge of responsive design principles and cross-browser compatibility, ensuring consistent user experiences across devices and platforms.",
+            "Applied version control with Git, learning best practices for managing branches, commits, and collaborative workflows.",
             "Gained practical experience in UI/UX principles, responsive design, and performance optimization, strengthening core front-end development skills."
         ]
     },
