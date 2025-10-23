@@ -41,7 +41,8 @@ const organization = [
             "Refactored and optimized the codebase to enhance maintainability and scalability, making future updates faster and less error-prone.",
             "Collaborated with the team to integrate third-party APIs, expanding functionality and adding new features that enriched user experience.",
             "Improved mobile responsiveness and cross-browser compatibility, ensuring consistent functionality across diverse platforms.",
-            "Applied version control practices with Git to manage source code effectively, track progress, and streamline collaboration with team members."
+            "Applied version control practices with Git to manage source code effectively, track progress, and streamline collaboration with team members.",
+            "Gained practical experience in UI/UX principles, responsive design, and performance optimization, strengthening core front-end development skills."
         ]
     },
     {
