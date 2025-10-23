@@ -58,7 +58,7 @@ const education = [
     {
         cert: "Higher National Diploma (Computer Science)",
         school: "Accra Technical University",
-        year: "September 2016 - November 2019"
+        year: "September 2016 - September 2019"
     }
 ]
 
