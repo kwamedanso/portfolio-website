@@ -2,7 +2,7 @@ import React from 'react'
 import "components/styles/hero.css"
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { Link } from 'react-router-dom';
-import resumeFile from "assets/Kwame-Danso-resume.pdf";
+import resumeFile from "assets/Kwame-Danso.pdf";
 import { motion } from 'framer-motion';
 import { childVariant, containerVariant } from './framerVariants';
 
