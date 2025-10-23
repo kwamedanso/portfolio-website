@@ -20,9 +20,12 @@ export default function About() {
             <div className="about-grid">
                 <div className="about-desc">
                     <h3 className='' data-type='clr-blue'>ABOUT ME</h3>
-                    <p className='margin-block-200'>
+                    <p className='margin-block-200'>I’m a passionate and detail-oriented Frontend Developer with over 3 years of hands-on experience designing and building responsive, user-focused web applications. Skilled in HTML, CSS, JavaScript, React.js, and Supabase, with a strong foundation in turning ideas into functional, visually appealing digital experiences. </p>
+
+                    {/* <p className='margin-block-200'>
                         I’m a passionate web developer with 3+ years of experience building websites and applications that blend functionality with great design. Skilled in HTML, CSS, JavaScript, and React.js, I love bringing ideas to life with clean code and user-centered solutions.
-                    </p>
+                    </p> */}
+
                     {/* <p className='margin-block-200'>
                         I’m a passionate web developer with over 3 years of hands-on experience building websites and web applications that not only work seamlessly but also look and feel great. I specialize in HTML, CSS, JavaScript, and React.js, and I love bringing ideas to life with clean code and thoughtful design. I’m skilled at integrating APIs, managing projects with Git, and crafting user-friendly experiences that balance functionality with aesthetics. What excites me most is the constant evolution of web technologies—I’m always learning, experimenting, and staying curious so I can deliver modern, impactful solutions.
                     </p> */}
@@ -35,7 +38,8 @@ export default function About() {
                         My real growth as a developer began during my internship at Ant Cyber Engineering Limited, where I gained hands-on experience that shaped the way I approach problem-solving and innovation. That opportunity became the foundation for my ongoing journey of continuous learning, skill development, and constant improvement.
                     </p> */}
 
-                    <p>During my internship at Ant Cyber Engineering Limited, I gained practical, hands-on experience that shaped the way I solve problems and innovate. Since then, I’ve continued to grow through constant learning and adapting to the latest technologies.</p>
+                    <p>Through freelance and personal projects like church management systems and e-commerce platforms,  I’ve gained practical expertise in REST API integration, database management, and UI/UX optimization. Committed to continuous learning, performance improvement, and delivering clean, maintainable code that enhances both usability and functionality.</p>
+                    {/* <p>During my internship at Ant Cyber Engineering Limited, I gained practical, hands-on experience that shaped the way I solve problems and innovate. Since then, I’ve continued to grow through constant learning and adapting to the latest technologies.</p> */}
                     {/* <p>My real growth as a developer began during my internship at Ant Cyber Engineering Limited, where I gained practical skills and insights that shaped how I approach problem-solving and innovation.</p> */}
                 </div>
                 <div className="about-prof_skills">
